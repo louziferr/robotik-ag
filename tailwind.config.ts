@@ -12,6 +12,12 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+
+
+      fontFamily: {
+        aldrich: ['Aldrich', 'cursive'],
+        alfa: ['Alfa Slab One', 'cursive'],
+      },
     },
   },
   plugins: [],
