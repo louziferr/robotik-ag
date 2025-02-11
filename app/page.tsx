@@ -19,17 +19,17 @@ export default function Home() {
         </div>
         <div className="min-h-[25px] mt-8">
           <TypeAnimation
-            sequence={[3000, "der BIP Kreativitätsschule Leipzig"]}
+            sequence={[3000, "an der BIP Kreativitätsschule Leipzig"]}
             wrapper="span"
             cursor={false}
-            speed={20}
+            speed={40}
             className="text-white"
           />
         </div>
-        <div className="m-8 flex flex-col items-center justify-center rounded-full bg-gray-100 h-[150px] w-[150px] md:h-[200px] md:w-[200px] shadow-inner shadow-black">
+        <div className="m-8 flex flex-col items-center justify-center rounded-full bg-gray-100 h-[150px] w-[150px] md:h-[200px] md:w-[200px] border-gray-600 border-4 shadow-lg shadow-black">
           <img
-            className="h-[100px] md:h-[150px] w-full animate-spin object-scale-down"
-            src="settings.svg"
+            className="h-[100px] md:h-[150px] w-full object-scale-down"
+            src="robot-ai.svg"
             alt="Settings SVG"
           />
         </div>
